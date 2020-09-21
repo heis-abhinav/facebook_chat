@@ -5,7 +5,7 @@
 include('database_connection.php');
 
 session_start();
-$access_token = "EAAK18hngcAsBAKZCQvs2NnDLlrgBfOZBVQftpHANfe9TVT79ygemQM2lYU4TdaZCCNyZA8gGZB2QJZAE4GEsD9l62hcdk3ullnnDxtTBePYrQuYY9bsxke03zXBfsiMyD2JwOFMdco1SwNB1e5vJyijVOuYu4IFcGrg12kgFcwNhQuBF8mSQWS";
+$access_token = "your-access-token";
 
 
 $query = " 
