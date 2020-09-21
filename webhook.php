@@ -1,15 +1,15 @@
 <?php
-$my_verify_token ="ASGARDIAN007";
+$my_verify_token ="custom-token";
 $challenge = $_GET['hub_challenge'];
 $verify_token = $_GET['hub_verify_token'];
 if($my_verify_token === $verify_token){
     echo $challenge;
     exit;
 
-    //https://7d45529a29e8.ngrok.iochat-application-using-php-ajax-jquery/index.php
+   
 }
 
-$access_token = "EAAK18hngcAsBAKZCQvs2NnDLlrgBfOZBVQftpHANfe9TVT79ygemQM2lYU4TdaZCCNyZA8gGZB2QJZAE4GEsD9l62hcdk3ullnnDxtTBePYrQuYY9bsxke03zXBfsiMyD2JwOFMdco1SwNB1e5vJyijVOuYu4IFcGrg12kgFcwNhQuBF8mSQWS";
+$access_token = "your-access-token";
 
 $response = file_get_contents("php://input");
 $response2 = json_decode($response,true);
