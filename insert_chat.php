@@ -5,7 +5,7 @@
 include('database_connection.php');
 
 session_start();
-$access_token = "EAAK18hngcAsBAGyex2nbuk3WKomV9BZAQiTyj56JgtHNCL0ukhZCopZC8VCrTtRsyDhy7zfXaOhs5JyF5L3z3rrNDAMZAuihGsixYZBtr2IVJhhju8nInsrmDhDl8b21yk3ZANyZCwZAVZA3BjYkg1ZCTr3SSqKAvewmOJzqEhmnfN36LDZCHvoHU6D";
+$access_token = "your-facebook-token";
 
 
 $query = " 
