@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = mysqli_connect('localhost','root','','chat',3308);
+$connect = mysqli_connect('host','username','password','db',port);
 
 date_default_timezone_set('Asia/Kolkata');
 
